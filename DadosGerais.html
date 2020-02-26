@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Dados Gerais</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+<!-- Cabeçalho -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Dados Gerais</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Aluno</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Professor</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Turma</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Diciplina</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- fim do Cabeçalho -->
+<div class="container" style="margin-top: 60px;">
+
+    <!--Card -->
+    <div class="card" id="card"><br>
+        <h1 style=" font-size:50px; font-family: initial; margin: 5px;">Alunos</h1>
+        <div class="card-body">
+        </div>
+    </div>
+    <br>
+    <!-- fim do card -->
+
+    <!--Inicio do Card danger com um form -->
+
+    <div class="card border-danger mb-3" style="max-width: 55%; float: left;">
+        <div style="background-color:	#B22222" class="card-header border-danger text-white">Dados Gerais</div>
+        <div class="card-body">
+            <form>
+                <div class="form-group row">
+                    <label for="inputNome" class="col-sm-2 col-form-label">Nome:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputNome"><br>
+                    </div>
+                    <label for="inputNasc" class="col-sm-2 col-form-label">Dt Nasc:</label>
+                    <div class="col-sm-10">
+                        <input type="date" class="form-control" id="inputNasc"><br>
+                    </div>
+                    <label for="inputMatricula" class="col-sm-2 col-form-label">Matricula:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputMatricula"><br>
+                    </div>
+                    <label for="inputTurma" class="col-sm-2 col-form-label">Turma:</label>
+                    <div class="col-sm-10">
+                        <select type="text" class="form-control" id="inputTurma"><br>
+                            <option>ADS 1° Semestre</option>
+                            <option>ADS 2° Semestre</option>
+                            <option>ADS 3° Semestre</option>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- fim do Card e fim do form -->
+    <!-- Inicio do Card com form left -->
+</div>
+
+</body>
+</html>
