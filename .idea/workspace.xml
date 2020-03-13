@@ -2,18 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8eb35e11-ef43-4692-82a1-6fee1287f1e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Atividades-Web/resources/views/Atividade01/questao01/formulario.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Atividades-Web/resources/views/Atividade01/questao02/calculo02.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades-Web/resources/views/Atividade01/questao06/formulario.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades-Web/resources/views/Atividade01/questao06/semideia.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades-Web/resources/views/Atividade01/questao08/formulario.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades-Web/resources/views/Atividade01/questao08/volume.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades-Web/resources/views/Atividade01/questao09/formulario.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades-Web/resources/views/Atividade01/questao09/resultado.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades-Web/resources/views/Atividade01/questao10/formulario.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades-Web/resources/views/Atividade01/questao10/resultado.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades-Web/resources/views/Atividade01/questao11/formulario.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades-Web/resources/views/Atividade01/questao11/resultado.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades-Web/resources/views/Atividade01/questao12/formulario.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades-Web/resources/views/Atividade01/questao12/resultado.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades-Web/resources/views/Atividade01/questao13/formulario.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades-Web/resources/views/Atividade01/questao13/resultado.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades-Web/resources/views/Atividade01/questao14/calcula.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades-Web/resources/views/Atividade01/questao14/formulario.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades-Web/resources/views/Atividade01/questao15/formulario.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades-Web/resources/views/Atividade02/questao01/formulario.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades-Web/resources/views/Atividade02/questao01/resultado.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades-Web/resources/views/Atividade02/questao02/formulario.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades-Web/resources/views/Atividade02/questao02/resultado02.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades-Web/resources/views/Atividade02/questao03/formulario.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades-Web/resources/views/Atividade02/questao03/questao03.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades-Web/resources/views/Atividade02/questao04/formulario.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades-Web/resources/views/Atividade02/questao04/questao04.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades-Web/resources/views/Atividade02/questao05/formulario.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades-Web/resources/views/Atividade02/questao05/resultado05.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alunos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Comandos laravel.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Comandos laravel.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DadosGerais.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Professores.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/escola/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/escola/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/escola/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/escola/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/escola/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/escola/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/escola/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atividades-Web/app/Http/Controllers/AtividadesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Atividades-Web/app/Http/Controllers/AtividadesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atividades-Web/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Atividades-Web/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,12 +155,12 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\victo\Documents\faculdade\4° semestre\Web-2\Atividades-Web\resources\views\Atividade01\questao1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\victo\Documents\faculdade\4° semestre\Web-2\Atividades-Web\resources\views\Atividade01/questao7" />
       <recent name="C:\Users\victo\Documents\faculdade\4° semestre\Web-2\Atividades-Web\resources\views\Atividade01/questao01" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\victo\Documents\faculdade\4° semestre\Web-2\Atividades-Web\resources\views\Atividade01\questao1" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -174,7 +192,8 @@
       <workItem from="1583806092399" duration="13033000" />
       <workItem from="1583862695712" duration="466000" />
       <workItem from="1583864922282" duration="167000" />
-      <workItem from="1583878497267" duration="7164000" />
+      <workItem from="1583878497267" duration="7606000" />
+      <workItem from="1584117496316" duration="16597000" />
     </task>
     <servers />
   </component>
@@ -186,13 +205,14 @@
       <screen x="-1360" y="0" width="1360" height="768" />
     </state>
     <state x="-1226" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1360.0.1360.768@-1360.0.1360.768" timestamp="1583814381271" />
-    <state x="-927" y="186" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583811942335">
+    <state x="-927" y="186" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584131479730">
       <screen x="-1360" y="0" width="1360" height="768" />
     </state>
-    <state x="-927" y="186" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/-1360.0.1360.768@-1360.0.1360.768" timestamp="1583811942335" />
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1583878499549">
+    <state x="-927" y="186" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/-1360.0.1360.768@-1360.0.1360.768" timestamp="1584131479730" />
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1584117507582">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1360.0.1360.768@0.0.1366.728" timestamp="1584117507582" />
     <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583878499549" />
     <state x="-1017" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1583817375314">
       <screen x="-1360" y="0" width="1360" height="768" />
