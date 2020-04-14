@@ -6,11 +6,7 @@ use Illuminate\Support\Facades\Schema;
 
 class CreateProfessores extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
+
     public function up()
     {
         Schema::create('professores', function (Blueprint $table) {
@@ -21,7 +17,6 @@ class CreateProfessores extends Migration
             $table->char('telefone');
             $table->string('email');
             $table->char('cep');
-            $table->string('logradouro')->nullable();
             $table->string('complemento')->nullable();
             $table->string('bairro');
             $table->string('uf');
@@ -30,11 +25,7 @@ class CreateProfessores extends Migration
         });
     }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
+
     public function down()
     {
         Schema::dropIfExists('professores');

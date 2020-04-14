@@ -19,7 +19,6 @@ class CreateAlunos extends Migration
             $table->char('telefone');
             $table->string('email');
             $table->char('cep');
-            $table->string('logradouro')->nullable();
             $table->string('complemento')->nullable();
             $table->string('bairro');
             $table->string('uf');

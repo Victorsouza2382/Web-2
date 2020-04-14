@@ -14,8 +14,8 @@ class CreateTurmas extends Migration
     public function up()
     {
         Schema::create('turmas', function (Blueprint $table) {
-            $table->UnsignedBigInteger('id');
-            $table->UnsignedBigInteger('diciplinas_id');
+            $table->BigIncrements('id');
+            $table->UnsignedBigInteger('disciplinas_id');
             $table->UnsignedBigInteger('professor_id');
             $table->timestamps();
         });

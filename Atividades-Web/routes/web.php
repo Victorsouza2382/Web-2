@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
+//lista 1
 Route::get('/questao1', 'AtividadesController@formulario1');
 
 Route::post('/questao1', 'AtividadesController@calcular');
@@ -62,8 +62,10 @@ Route::post('/questao13', 'AtividadesController@idadedias');
 Route::get('/questao14', 'AtividadesController@ponderada');
 
 Route::post('/questao14', 'AtividadesController@calcula');
+//fim lista 1
 
 
+//lista2
 Route::get('/lista2questao01', 'Atividades02@formulario01');
 
 Route::post('/lista2questao01', 'Atividades02@questao01');
@@ -83,9 +85,47 @@ Route::post('/lista2questao04', 'Atividades02@fuc04');
 Route::get('/lista2questao05', 'Atividades02@formulario05');
 
 Route::post('/lista2questao05', 'Atividades02@questao05');
+//fim lista 2
 
+//Atividade Crud
+// "cursos"
+Route::get('/curso', 'CursosController@index');
 
+Route::get('/curso/create', 'CursosController@create');
 
+Route::post('/curso', 'CursosController@store');
+
+//fim cursos
+//disciplinas
+Route::get('/disciplina', 'DisciplinasController@index');
+
+Route::get('/disciplina/create', 'DisciplinasController@create');
+
+Route::post('/disciplina', 'DisciplinasController@store');
+
+//fim disciplinas
+//alunos
+Route::get('/aluno', 'AlunosController@index');
+
+Route::get('/aluno/create', 'AlunosController@create');
+
+Route::post('/aluno', 'AlunosController@store');
+// fim alunos
+//professores
+Route::get('/professor', 'ProfessoresController@index');
+
+Route::get('/professor/create', 'ProfessoresController@create');
+
+Route::post('/professor', 'ProfessoresController@store');
+//fim professores
+//turmas
+Route::get('/turma', 'TurmasController@index');
+
+Route::get('/turma/create', 'TurmasController@create');
+
+Route::post('/turma', 'TurmasController@store');
+//fim turmas
+//
 
 
 
