@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8eb35e11-ef43-4692-82a1-6fee1287f1e2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Comandos laravel.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atividades-Web/app/Http/Controllers/DisciplinasController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Atividades-Web/app/Http/Controllers/DisciplinasController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atividades-Web/app/Professor.php" beforeDir="false" afterPath="$PROJECT_DIR$/Atividades-Web/app/Professor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atividades-Web/resources/views/disciplina/formulario.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Atividades-Web/resources/views/disciplina/formulario.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +19,7 @@
     </execution>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/iesb-escola" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -172,11 +173,17 @@
       <workItem from="1585348351018" duration="43000" />
       <workItem from="1585354698165" duration="357000" />
       <workItem from="1585695680966" duration="955000" />
+      <workItem from="1591401819923" duration="997000" />
+      <workItem from="1591452701591" duration="6971000" />
+      <workItem from="1591539797009" duration="6945000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1226" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583814381271">

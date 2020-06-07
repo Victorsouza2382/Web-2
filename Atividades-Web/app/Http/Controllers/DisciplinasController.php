@@ -27,7 +27,7 @@ class DisciplinasController extends Controller
         $disciplina->save();
         return redirect('/disciplina');
     }
-
+%
 
     public function show($id)
     {
